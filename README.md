@@ -28,3 +28,10 @@ Note that this repository does not contain the actual recordings which cannot be
 made public at this point. Please contact the
 [City Museum of Wiener Neustadt](http://stadtmuseum.wiener-neustadt.at) for any
 concerns regarding the exhibition.
+
+
+Building
+--------
+
+You can generate an executable `jar` file by running the `shadowJar` task with
+the gradle wrapper.
