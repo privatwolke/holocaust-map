@@ -1,0 +1,33 @@
+plugins {
+  id 'java'
+	id 'eclipse'
+  id 'com.github.johnrengelman.shadow' version '1.2.2'
+}
+
+version = '0.1'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+  manifest {
+    attributes("Main-Class": "at.privatwolke.museum.Familienalbum")
+  }
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+	maven {
+		url "http://clojars.org/repo"
+	}
+}
+
+dependencies {
+	compile 'org.processing:core:2.2.1'
+	compile 'org.processing:video:2.2.1'
+	compile 'net.sourceforge.tuio:tuio:1.4'
+	compile "ddf.minim:ddf.minim:2.2.0"
+	compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+	compile 'log4j:log4j:1.2.17'
+	compile files('lib/Unfolding.jar')
+}
