@@ -33,5 +33,6 @@ concerns regarding the exhibition.
 Building
 --------
 
-You can generate an executable `jar` file by running the `shadowJar` task with
-the gradle wrapper.
+Just run the gradle wrapper: `./gradlew run` (or whatever is correct for your
+platform). You can generate an executable `jar` file by running the `shadowJar`
+task.
