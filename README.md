@@ -1,6 +1,8 @@
 Familienalbum
 =============
 
+[![Build Status](https://travis-ci.org/privatwolke/holocaust-map.svg?branch=master)](https://travis-ci.org/privatwolke/holocaust-map)
+
 This is an interactive map display that was created for an exhibition at the
 City Museum in Wiener Neustadt. It visualizes the routes on which people were
 brought into concentration camps from all over Europe. A second map shows the
